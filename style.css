@@ -1,0 +1,55 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px rgb(86, 235, 0);
+    color:white;
+    background-color: orangered;
+  }
+  .heading_div
+  {
+    background:yellow ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px rgb(95, 255, 2);
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px rgb(251, 255, 0);
+    font-size: 20px;
+    float: none;
+  }
+
+  .result_para_tag span {
+    white-space: pre-line
+  }
+
+  canvas {
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border: solid 5px red;
+    border-radius: 20px;
+    margin-top: 125px;
+  }
+
+  @keyframes example {
+    0%{box-shadow: 1px 1px 60px rgb(255, 115, 0);}
+    50%{box-shadow: 1px 1px 60px rgb(132, 0, 255);}
+    100%{box-shadow: 1px 1px 60px rgb(255, 0, 149);}
+  }
+  
+  .copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    background-color: crimson;
+    text-align: center;
+    font-weight: 800;
+  }
